@@ -36,11 +36,11 @@ function sortArray(e) {
 
   const sortedArray = quickSort(unsortedArray);
 
-  document.getElementById("sorted").innerHTML = `[${sortedArray}]`;
+  document.getElementById("sorted").textContent = `[${sortedArray}]`;
 }
 
 function updateHTML(element, array) {
-  document.getElementById(element).innerHTML = `[${array}]`;
+  document.getElementById(element).textContent = `[${array}]`;
 }
 
 function generate(e) {
